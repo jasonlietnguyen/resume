@@ -1,0 +1,189 @@
+
+
+/*Navbar*/
+.custom-navbar {
+    background-color: #333;
+    opacity: .8;
+    margin-top: 50px;
+    padding: 20px 0;
+}
+.custom-navbar p {
+    font-size: 2em;
+    color: white;
+    display: inline;
+}
+.sub-navbar {
+    background-color: #333;
+    opacity: .8;
+    padding: 10px 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 35px;
+}
+#my-porfolio {
+    font-size: 2em;
+    color: white;
+    margin-top: 0;
+}
+
+
+/*Body*/
+body {
+    background-image: url(https://static.pexels.com/photos/27667/pexels-photo-27667.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    color: white;
+}
+i {
+    color: white;
+    padding-top: 30px;
+}
+hr {
+    margin: 20px 40px 0 40px; 
+}
+h3 {
+    color: white;
+}
+a {
+    text-decoration: none;
+}
+.square-box {
+    height: 180px;
+}
+
+.square-box-light {
+    background-color: #469AE0;
+    height: 180px;
+    opacity: .9;
+}
+.square-box-red {
+    background-color: #d9534f;
+    height: 180px;
+    opacity: .9;
+}
+.square-box-red:hover {
+    background-color: #d62f2c;
+    border: 3px solid white;
+}
+.square-box-black {
+    background-color: #333;
+    height: 180px;
+    opacity: .9;
+    color: white;
+}
+.open-boxes {
+    background-color: #d9534f;
+    height: 180px;
+    opacity: .9;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.open-box {
+    background-color: #d9534f;
+    height: 180px;
+    opacity: .9;
+    border-bottom: 1px solid white;
+}
+.open-click:hover {
+    background-color: #d62f2c;
+}
+.profile-img {
+    background-image: url(../../img/profile-photo.jpg);
+    background-size: cover;
+    height: 180px;
+}
+.margin-top {
+    margin-top: 20px;
+}
+.logo-padding {
+    padding-top: 20px;
+}
+.img-photography:hover {
+    background-color: #111;
+}
+.img-photography {
+    background-image: url(../../img/photography.jpg);
+    background-size: cover;
+    padding-top: 50px;
+}
+.img-travel {
+    background-image: url(../../img/travel.jpg);
+    background-size: cover;
+    padding-top: 50px;
+}
+.img-food {
+    background-image: url(../../img/food.jpg);
+    background-size: cover;
+    padding-top: 50px;
+}
+.img-outdoors {
+    background-image: url(../../img/outdoor.jpg);
+    background-size: cover;
+    padding-top: 50px;
+}
+.img-creative {
+    background-image: url(../../img/creative.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding-top: 50px;
+    height: 180px;
+}
+.img-code {
+    background-image: url(../../img/code.jpg);
+    background-size: cover;
+    padding-top: 15px;
+    background-position: center;
+    height: 180px;
+}
+.img-code h1{
+    font-size: 4em;
+}
+.img-creative h2{
+    border: 3px solid white;
+    padding: 10px 0;
+    margin: 0 40px;
+}
+#jason {
+    padding-top: 30px; 
+    background-position: center;
+    background-color: #222;
+    opacity: .9;
+}
+.white-box {
+    border: 2px solid white;
+}
+.img-text h3{
+    border: 3px solid white;
+    padding: 10px 0;
+}
+.portfolio {
+    font-size: 5em;
+    padding: 10px 0;
+    margin: 40px;
+}
+.portfolio-margin {
+    margin-top: 15px;
+}
+.thumbnail-box {
+    background-color: #333;
+    border: none;
+    opacity: .9
+}
+.thumbnail-box:hover {
+    background-color: #111;
+}
+.go-button {
+    border: 1px solid #4aad4a;
+    color: #4aad4a;
+    border-radius: 5px;
+    margin: 0 80px 5px 80px;
+    padding: 5px 0;
+}
+.go-button:hover {
+    border: 1px solid #4aad4a;
+    color: white;
+    background-color: #4aad4a;
+}

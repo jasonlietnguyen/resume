@@ -1,0 +1,321 @@
+<!-- NavBar -->
+<div class="row custom-navbar">
+    <div class="col-md-2 text-center" ng-click="openEducation = !openEducation">
+        <a href="#education"><p>EDUCATION</p></a>
+    </div>
+    <div class="col-md-2 text-center" ng-click="openSkills = !openSkills">
+        <a href="#skills"><p>SKILLS</p></a>
+    </div>
+    <div class="col-md-2 text-center" ng-click="openInterests = !openInterests">
+        <a href="#interests"><p>INTERESTS</p></a>
+    </div>
+    <span ng-click="openPrograms = !openPrograms">
+    <div class="col-md-2 text-center">
+        <a href="#programs"><p>PROGRAMS</p></a>
+    </div>
+    <div class="col-md-2 text-center">
+        <a href="#programs" ng-click="openProgram = !openPrograms"><p>LANGUAGES</p></a>
+    </div>
+    </span>
+    <div class="col-md-2 text-center">
+        <a href="#contact" ng-click="openContact = !openContact"><p>CONTACT</p></a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-2 col-md-offset-5 text-center sub-navbar">
+        <a href="#portfolio"><p id="my-porfolio">MY PORTFOLIO</p></a>
+    </div>
+</div>
+<!-- Body -->
+<div class="container">
+
+<a name="contact"></a>
+    <div class="row margin-top">
+        <div class="col-md-2 profile-img"></div>
+        <div class="col-md-6 square-box" id="jason">
+            <h1 class="text-center">J A S O N &nbsp;&nbsp; N G U Y E N</h1>
+            <h4 class="text-center">D E S I G N E R / D E V E L O P E R</h4>
+        </div>
+        <div class="col-md-4 square-box-red" ng-click="openContact = !openContact">
+            <span class="center-block text-center">
+            <i class="fa fa-user fa-5x" aria-hidden="true"></i>
+            </span>
+            <hr>
+            <h3 class="text-center">CONTACT</h3>
+        </div>
+    </div>
+    
+    <div class="row" ng-show="openContact">
+        <div class="col-md-2 col-md-offset-2 open-boxes"><br>
+            <span class="center-block text-center">
+            <i class="fa fa-phone-square fa-3x animated bounceInLeft" aria-hidden="true"></i>
+            </span>
+            <h4 class="text-center animated bounceInLeft">1-208-230-4787</h4>
+        </div>
+        <div class="col-md-2 open-boxes"><br>
+            <span class="center-block text-center">
+            <i class="fa fa-envelope fa-3x animated bounceInLeft" aria-hidden="true"></i>
+            </span>
+            <h4 class="text-center animated bounceInLeft">jason123nguyen<br>@gmail.com</h4>
+        </div>
+        <div class="col-md-2 open-boxes open-click"><br>
+            <a href="https://github.com/jasonlietnguyen" target="_blank" style="color: white;">
+            <span class="center-block text-center">
+            <i class="fa fa-github fa-3x animated bounceInLeft" aria-hidden="true"></i>
+            </span>
+            <h4 class="text-center animated bounceInLeft">jasonlietnguyen</h4>
+            </a>
+        </div>
+        <div class="col-md-2 open-boxes open-click"><br>
+            <a href="https://www.linkedin.com/profile/preview?locale=en_US&trk=prof-0-sb-preview-primary-button" target="_blank" style="color: white;">
+            <span class="center-block text-center">
+            <i class="fa fa-linkedin-square fa-3x animated bounceInLeft" aria-hidden="true"></i>
+            </span>
+            <h4 class="text-center animated bounceInLeft">Jason Nguyen</h4>
+            </a>
+        </div>
+         <div class="col-md-2 open-box open-click"><br>
+            <a href="https://www.facebook.com/jasonworldempire" target="_blank" style="color: white;">
+            <span class="center-block text-center">
+            <i class="fa fa-facebook-square fa-3x animated bounceInLeft" aria-hidden="true"></i>
+            </span>
+            <h4 class="text-center animated bounceInLeft">jasonworldempire</h4>
+            </a>
+        </div>
+    </div>
+
+
+<a name="education"></a>
+    <div class="row">
+        <div class="col-md-4 square-box-red" ng-click="openEducation = !openEducation">
+            <span class="center-block text-center">
+            <i class="fa fa-graduation-cap fa-5x" aria-hidden="true"></i>
+            </span>
+            <hr>
+            <h3 class="text-center">EDUCATION</h3>
+        </div>
+        <div class="col-md-2 square-box-light">
+            <img class="center-block logo-padding" src="../../img/bootstrap.png" width="150px">
+        </div>
+        <div class="col-md-4 square-boxes img-creative">
+            <h2 class="text-center">C R E A T I V E</h2>
+        </div>
+    </div>
+    
+    <div class="row" ng-show="openEducation">
+        <div class="col-md-2 open-boxes">
+            <img class="center-block logo-padding animated bounceInRight" src="../../img/vhs.png" width="80px">
+            <h4 class="text-center animated bounceInRight">Valivue High School</h4>
+            <h5 class="text-center animated bounceInRight">-Caldwell, ID</h5>
+        </div>
+        <div class="col-md-2 open-boxes">
+            <img class="center-block logo-padding animated bounceInRight" src="../../img/bcw.png" width="80px">
+            <h4 class="text-center animated bounceInRight">Boise Code Works</h4>
+            <h5 class="text-center animated bounceInRight">-Boise, ID</h5>
+        </div>
+        <div class="col-md-2 open-box">
+            <img class="center-block logo-padding animated bounceInRight" src="../../img/cwi.png" width="100px">
+            <h4 class="text-center animated bounceInRight">CWI</h4>
+            <h5 class="text-center animated bounceInRight">-Nampa, ID</h5>
+        </div>
+    </div>
+
+
+<a name="programs"></a>
+    <div class="row">
+        <div class="col-md-2 col-md-offset-2 square-box-black">
+        <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <h4>&nbsp;&nbsp;if (sad() === true) {</h4>
+            <h4>&nbsp;&nbsp;&nbsp;&nbsp;sad().stop();</h4>
+            <h4>&nbsp;&nbsp;&nbsp;&nbsp;beAwesome();</h4>
+            <h4>&nbsp;&nbsp;}</h4>
+        </div>
+        <div class="col-md-4 square-box-red" ng-click="openPrograms = !openPrograms">
+            <span class="center-block text-center">
+            <i class="fa fa-keyboard-o fa-5x" aria-hidden="true"></i>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <i class="fa fa-language fa-5x" aria-hidden="true"></i>
+            </span>
+            <hr>
+            <h3 class="text-center">PROGRAMS & LANGUAGES</h3>
+        </div>
+         <div class="col-md-4 square-box-light">
+        <img class="center-block logo-padding" src="../../img/lightroom-cover.png" width="338px">
+        </div>
+    </div>
+    
+    <div class="row" ng-show="openPrograms">
+        <div class="col-md-2 open-boxes animated bounceInDown">
+            <h3 class="text-center">ENGLISH</h3>
+        <hr>
+        <h4 class="text-center">Speaking: Fluent</h4>
+        <h4 class="text-center">Writing: Fluent</h4>
+        </div>
+         <div class="col-md-2 open-boxes animated bounceInDown">
+            <img class="center-block logo-padding" src="../../img/html.png" width="100px">
+            <h4 class="text-center">H T M L</h4>
+        </div>
+        <div class="col-md-2 open-boxes animated bounceInDown">
+            <img class="center-block logo-padding" src="../../img/css.png" width="90px">
+            <h4 class="text-center">C S S</h4>
+        </div>
+        <div class="col-md-2 open-boxes animated bounceInDown">
+            <img class="center-block logo-padding" src="../../img/js.png" width="105px">
+            <h4 class="text-center">J S</h4>
+        </div>
+        <div class="col-md-2 open-boxes animated bounceInDown">
+         <img class="center-block logo-padding" src="../../img/bootstrap2.png" width="105px">
+            <h4 class="text-center">B O O T S T R A P</h4>
+        </div>
+        <div class="col-md-2 open-box animated bounceInDown">
+             <img class="center-block logo-padding" src="../../img/angular.png" width="105px">
+            <h4 class="text-center">A N G U L A R</h4>
+        </div>
+        
+    </div>
+
+
+    <a name="interests"></a>
+    <div class="row">
+        <div class="col-md-2 open-boxes animated bounceInDown" ng-show="openPrograms">
+            <h3 class="text-center">VIETNAMESE</h3>
+        <hr>
+        <h4 class="text-center">Speaking: Fluent</h4>
+        </div>
+        <div class="col-md-6 square-box-light">
+        <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <h3>When you want to succeed as bad as you want to breathe, then you'll be successful.</h3>
+        <i class="fa fa-quote-right pull-right" aria-hidden="true" style="margin-top: -20px;"></i>
+        </div>
+        <div class="col-md-4 square-box-red" ng-click="openInterests = !openInterests">
+             <span class="center-block text-center">
+             <i class="fa fa-camera-retro fa-5x" aria-hidden="true"></i>
+             </span>
+             <hr>
+            <h3 class="text-center">INTERESTS</h3>
+        </div>
+    </div>
+    
+    
+    <div class="row img-text" ng-show="openInterests">
+        <div class="col-md-3 open-box img-photography animated bounceInDown">
+            <h3 class="text-center">P H O T O G R A P H Y</h3>
+        </div>
+        <div class="col-md-3 open-box img-travel animated bounceInUp">
+            <h3 class="text-center">T R A V E L</h3>
+        </div>
+        <div class="col-md-3 open-box img-food animated bounceInDown">
+            <h3 class="text-center">F O O D</h3>
+        </div>
+        <div class="col-md-3 open-box img-outdoors animated bounceInUp">
+            <h3 class="text-center">O U T D O O R S</h3>
+        </div>
+    </div>
+
+    <a name="skills"></a>
+    <div class="row">
+        <div class="col-md-4 square-box-red" ng-click="openSkills = !openSkills">
+            <span class="center-block text-center">
+            <i class="fa fa-laptop fa-5x" aria-hidden="true"></i>
+            </span>
+            <hr>
+            <h3 class="text-center">SKILLS</h3>
+        </div>
+        <div class="col-md-4 square-box-light" ng-click="openSkills = !openSkills">
+            <img class="center-block logo-padding" src="../../img/layout.png" width="350px" style="padding-top: 30px">
+        </div>
+        <div class="col-md-4 square-boxes img-code">
+            <h1 class="text-center">I &nbsp;&nbsp; 
+            <i class="fa fa-heart" aria-hidden="true"></i> &nbsp;&nbsp;
+            <i class="fa fa-code" aria-hidden="true"></i>
+            </h1>
+        </div>
+    </div>
+
+    
+     <div class="row" ng-show="openSkills">
+        <div class="col-md-2 col-md-offset-2 open-boxes">
+            <img class="center-block logo-padding animated bounceInDown" src="../../img/photoshop.png" width="110px">
+            <h4 class="text-center animated bounceInDown">Photoshop</h4>
+        </div>
+        <div class="col-md-2 open-boxes">
+            <img class="center-block logo-padding animated bounceInDown" src="../../img/lightroom.png" width="110px">
+            <h4 class="text-center animated bounceInDown">Lightroom</h4>
+        </div>
+        <div class="col-md-2 open-boxes">
+            <img class="center-block logo-padding animated bounceInDown" src="../../img/photo.jpg" width="120px">
+            <h4 class="text-center animated bounceInDown">Photography</h4>
+        </div>
+        <div class="col-md-4 open-box">
+            <img class="center-block logo-padding animated bounceInDown" src="../../img/webdev.png" width="370px" sty>
+            <h4 class="text-center animated bounceInDown">Web Design/Development</h4>
+        </div>
+    </div>
+
+    <a name="portfolio"></a>
+     <div class="row">
+        <div class="col-md-12 square-box-black">
+           <h1 class="text-center portfolio">M Y &nbsp;&nbsp;&nbsp; P O R T F O L I O</h1>
+        </div>
+    </div>
+
+    <div class="row portfolio-margin">
+        <div class="col-md-4">
+            <div class="thumbnail thumbnail-box">
+                 <img src="../../img/music-is-life.png" alt="Music Is Life">
+                <h2 class="text-center">Music Is Life</h2>
+                <a href="http://jasonlietnguyen.github.io/jasonmusicnotjake/" target="_blank">
+                <h2 class="text-center go-button">View Demo</h2>
+                </a>
+            </div>
+        </div>
+         <div class="col-md-4">
+            <div class="thumbnail thumbnail-box">
+                 <img src="../../img/inspire.png" alt="Inspire">
+                <h2 class="text-center">Inspire</h2>
+                <a href="http://jasonlietnguyen.github.io/inspire/" target="_blank">
+                <h2 class="text-center go-button">View Demo</h2>
+                </a>
+            </div>
+        </div>
+         <div class="col-md-4">
+            <div class="thumbnail thumbnail-box">
+                 <img src="../../img/todo.png" alt="ToDo List">
+                <h2 class="text-center">ToDo List</h2>
+                <a href="http://jasonlietnguyen.github.io/todo/" target="_blank">
+                <h2 class="text-center go-button">View Demo</h2>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row porfolio-margin">
+        <div class="col-md-4">
+            <div class="thumbnail thumbnail-box">
+                <img src="../../img/converter.png" alt="Converter Calculator">
+                <h2 class="text-center">Converter</h2>
+                <a href="http://jasonlietnguyen.github.io/ng-calulator/#/page1" target="_target">
+                <h2 class="text-center go-button">View Demo</h2>
+                </a>
+            </div>
+        </div>
+         <div class="col-md-4">
+            <div class="thumbnail thumbnail-box">
+                 <img src="../../img/music-is-life.png" alt="Music Is Life">
+                <h2 class="text-center">Music Is Life</h2>
+                <h2 class="text-center go-button">View Demo</h2>
+            </div>
+        </div>
+         <div class="col-md-4">
+            <div class="thumbnail thumbnail-box">
+                 <img src="../../img/music-is-life.png" alt="Music Is Life">
+                <h2 class="text-center">Music Is Life</h2>
+                <h2 class="text-center go-button">View Demo</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
