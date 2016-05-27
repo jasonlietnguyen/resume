@@ -91,7 +91,7 @@ a {
     background-color: #d62f2c;
 }
 .profile-img {
-    background-image: url(../../img/profile-photo.jpg);
+    background-image: url(/resume/img/profile-photo.jpg);
     background-size: cover;
     height: 180px;
 }
@@ -105,34 +105,34 @@ a {
     background-color: #111;
 }
 .img-photography {
-    background-image: url(../../img/photography.jpg);
+    background-image: url(/resume/img/photography.jpg);
     background-size: cover;
     padding-top: 50px;
 }
 .img-travel {
-    background-image: url(../../img/travel.jpg);
+    background-image: url(/resume/img/travel.jpg);
     background-size: cover;
     padding-top: 50px;
 }
 .img-food {
-    background-image: url(../../img/food.jpg);
+    background-image: url(/resume/img/food.jpg);
     background-size: cover;
     padding-top: 50px;
 }
 .img-outdoors {
-    background-image: url(../../img/outdoor.jpg);
+    background-image: url(/resume/img/outdoor.jpg);
     background-size: cover;
     padding-top: 50px;
 }
 .img-creative {
-    background-image: url(../../img/creative.jpg);
+    background-image: url(/resume/img/creative.jpg);
     background-size: cover;
     background-position: bottom;
     padding-top: 50px;
     height: 180px;
 }
 .img-code {
-    background-image: url(../../img/code.jpg);
+    background-image: url(/resume/img/code.jpg);
     background-size: cover;
     padding-top: 15px;
     background-position: center;
