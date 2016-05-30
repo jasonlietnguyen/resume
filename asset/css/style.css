@@ -101,8 +101,7 @@ a {
     background-color: #d62f2c;
 }
 .profile-img {
-    background-image: url(/resume/img/profile-photo.jpg);
-    background-size: cover;
+    margin: 0;
     height: 180px;
 }
 .margin-top {
