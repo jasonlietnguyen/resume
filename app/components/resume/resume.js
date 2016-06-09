@@ -8,14 +8,5 @@
         
          function ResumeController(){
          	var rc = this;
-            
-        //  	rc.greenBox = function () {
-        //  		if (openBox = true) {
-        //  			openBox = false;
-        //  		}
-        //  		else (openBox = false){
-        //  			openBox = true;
-        //  		}
-        //  	}
         }
 }())
