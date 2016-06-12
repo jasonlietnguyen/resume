@@ -207,12 +207,12 @@ a {
     width: 13px;  
 }
 ::-webkit-scrollbar-thumb {
-    background: #469AE0;
+    background: #777;
     border-radius: 10px;
     padding-left: 10px; 
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #3486c9;
+    background: #555;
 }
 
 /*Glow*/
