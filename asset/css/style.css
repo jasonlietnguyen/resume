@@ -207,11 +207,11 @@ a {
 
 /*Scroll Bar*/
 ::-webkit-scrollbar-thumb {
-    background: rgba(70, 154, 224, .8);
+    background: #469AE0;
     padding-left: 10px; 
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: rgba(60, 154, 224, .9);
+    background: #3486c9;
 }
 
 /*Glow*/
