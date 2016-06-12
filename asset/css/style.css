@@ -32,8 +32,7 @@
 
 /*Body*/
 body {
-    /*background-image: url(/resume/img/background.jpg);*/
-    background-color: #555;
+    background-image: url(/resume/img/background.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: bottom;
