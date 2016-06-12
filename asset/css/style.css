@@ -32,7 +32,8 @@
 
 /*Body*/
 body {
-    background-image: url(/resume/img/background.jpg);
+    /*background-image: url(/resume/img/background.jpg);*/
+    background-color: #555;
     background-attachment: fixed;
     background-size: cover;
     background-position: bottom;
@@ -200,14 +201,15 @@ a {
 .portfolio-margin a {
     text-decoration: none;
 }
-::-webkit-scrollbar {
-    width: 13px;
-    
-}
+
 
 /*Scroll Bar*/
+::-webkit-scrollbar {
+    width: 13px;  
+}
 ::-webkit-scrollbar-thumb {
     background: #469AE0;
+    border-radius: 10px;
     padding-left: 10px; 
 }
 ::-webkit-scrollbar-thumb:hover {
