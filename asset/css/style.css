@@ -1,6 +1,6 @@
 /*Navbar*/
 .navbar-margin-top {
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .navbar-margin-bottom {
     margin-bottom: 40px;
@@ -11,6 +11,9 @@
     display: inline;
     padding-left: 20px;
     opacity: .9;
+}
+#custom-navbar p:hover {
+    color: #999;
 }
 #custom-navbar a {
     text-decoration: none;
@@ -141,9 +144,10 @@ a {
     font-size: 4em;
 }
 .img-creative h2{
-    border: 3px solid white;
+    border: 3px solid black;
     padding: 10px 0;
     margin: 0 40px;
+    color: black;
 }
 #jason {
     padding-top: 30px; 
