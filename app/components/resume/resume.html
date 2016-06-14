@@ -1,13 +1,19 @@
 <!-- NavBar -->
 <div class="row custom-navbar">
     <div class="col-md-2 text-center" ng-click="openEducation = !openEducation">
-        <a href="#education"><p>EDUCATION</p></a>
+        <a href="#education">
+            <p>EDUCATION</p>
+        </a>
     </div>
     <div class="col-md-2 text-center" ng-click="openSkills = !openSkills">
-        <a href="#skills"><p>SKILLS</p></a>
+        <a href="#skills">
+            <p>SKILLS</p>
+        </a>
     </div>
     <div class="col-md-2 text-center" ng-click="openInterests = !openInterests">
-        <a href="#interests"><p>INTERESTS</p></a>
+        <a href="#interests">
+            <p>INTERESTS</p>
+        </a>
     </div>
     <span ng-click="openPrograms = !openPrograms">
     <div class="col-md-2 text-center">
@@ -18,23 +24,34 @@
     </div>
     </span>
     <div class="col-md-2 text-center">
-        <a href="#contact" ng-click="openContact = !openContact"><p>CONTACT</p></a>
+        <a href="#contact" ng-click="openContact = !openContact">
+            <p>CONTACT</p>
+        </a>
     </div>
 </div>
 <div class="row">
     <div class="col-md-2 col-md-offset-5 text-center sub-navbar">
-        <a href="#portfolio"><p id="my-porfolio">MY PORTFOLIO</p></a>
+        <a href="#portfolio">
+            <p id="my-porfolio">MY PORTFOLIO</p>
+        </a>
     </div>
 </div>
 <!-- Body -->
 <div class="container">
 
-<a name="contact"></a>
+    <a name="contact"></a>
     <div class="row margin-top animated2 bounceInDown">
         <div class="col-md-2 profile-img"></div>
         <div class="col-md-6 square-box" id="jason">
-            <h1 class="text-center">J A S O N &nbsp;&nbsp; N G U Y E N</h1>
-            <h4 class="text-center">D E S I G N E R / D E V E L O P E R</h4>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="/resume/img/jln-white.png" alt="JLN" width="100%">
+            </div>
+            <div class="col-md-9">
+                <h1 class="text-center">J A S O N &nbsp;&nbsp; N G U Y E N</h1>
+                <h4 class="text-center">D E S I G N E R / D E V E L O P E R</h4>
+            </div>
+        </div>
         </div>
         <div class="col-md-4 square-box-red" ng-click="openContact = !openContact">
             <span class="center-block text-center">
@@ -44,7 +61,7 @@
             <h3 class="text-center">CONTACT</h3>
         </div>
     </div>
-    
+
     <div class="row" ng-show="openContact">
         <div class="col-md-2 col-md-offset-2 open-boxes"><br>
             <span class="center-block text-center">
@@ -60,32 +77,32 @@
         </div>
         <div class="col-md-2 open-boxes open-click"><br>
             <a href="https://github.com/jasonlietnguyen" target="_blank" style="color: white;">
-            <span class="center-block text-center">
+                <span class="center-block text-center">
             <i class="fa fa-github fa-3x animated bounceInLeft" aria-hidden="true"></i>
             </span>
-            <h4 class="text-center animated bounceInLeft">jasonlietnguyen</h4>
+                <h4 class="text-center animated bounceInLeft">jasonlietnguyen</h4>
             </a>
         </div>
         <div class="col-md-2 open-boxes open-click"><br>
             <a href="https://www.linkedin.com/in/jason-nguyen-50970811b" target="_blank" style="color: white;">
-            <span class="center-block text-center">
+                <span class="center-block text-center">
             <i class="fa fa-linkedin-square fa-3x animated bounceInLeft" aria-hidden="true"></i>
             </span>
-            <h4 class="text-center animated bounceInLeft">Jason Nguyen</h4>
+                <h4 class="text-center animated bounceInLeft">Jason Nguyen</h4>
             </a>
         </div>
-         <div class="col-md-2 open-box open-click"><br>
+        <div class="col-md-2 open-box open-click"><br>
             <a href="https://www.facebook.com/jasonworldempire" target="_blank" style="color: white;">
-            <span class="center-block text-center">
+                <span class="center-block text-center">
             <i class="fa fa-facebook-square fa-3x animated bounceInLeft" aria-hidden="true"></i>
             </span>
-            <h4 class="text-center animated bounceInLeft">jasonworldempire</h4>
+                <h4 class="text-center animated bounceInLeft">jasonworldempire</h4>
             </a>
         </div>
     </div>
 
 
-<a name="education"></a>
+    <a name="education"></a>
     <div class="row animated3 bounceInDown">
         <div class="col-md-4 square-box-red" ng-click="openEducation = !openEducation">
             <span class="center-block text-center">
@@ -101,7 +118,7 @@
             <h2 class="text-center">C R E A T I V E</h2>
         </div>
     </div>
-    
+
     <div class="row" ng-show="openEducation">
         <div class="col-md-2 open-boxes">
             <img class="center-block logo-padding animated bounceInRight" src="/resume/img/vhs.png" width="80px">
@@ -121,10 +138,10 @@
     </div>
 
 
-<a name="programs"></a>
+    <a name="programs"></a>
     <div class="row animated4 bounceInDown">
         <div class="col-md-2 col-md-offset-2 square-box-black">
-        <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
             <h4>&nbsp;&nbsp;if (sad() === true) {</h4>
             <h4>&nbsp;&nbsp;&nbsp;&nbsp;sad().stop();</h4>
             <h4>&nbsp;&nbsp;&nbsp;&nbsp;beAwesome();</h4>
@@ -139,19 +156,19 @@
             <hr>
             <h3 class="text-center">PROGRAMS & LANGUAGES</h3>
         </div>
-         <div class="col-md-4 square-box-light">
-        <img class="center-block logo-padding" src="/resume/img/lightroom-cover.png" width="338px">
+        <div class="col-md-4 square-box-light">
+            <img class="center-block logo-padding" src="/resume/img/lightroom-cover.png" width="338px">
         </div>
     </div>
-    
+
     <div class="row" ng-show="openPrograms">
         <div class="col-md-2 open-boxes animated bounceInDown">
             <h3 class="text-center" style="margin: 0; padding-top: 20px">ENGLISH</h3>
-        <hr>
-        <h4 class="text-center">Speaking: Fluent</h4>
-        <h4 class="text-center">Writing: Fluent</h4>
+            <hr>
+            <h4 class="text-center">Speaking: Fluent</h4>
+            <h4 class="text-center">Writing: Fluent</h4>
         </div>
-         <div class="col-md-2 open-boxes animated bounceInDown">
+        <div class="col-md-2 open-boxes animated bounceInDown">
             <img class="center-block logo-padding" src="/resume/img/html.png" width="100px">
             <h4 class="text-center">H T M L</h4>
         </div>
@@ -164,14 +181,14 @@
             <h4 class="text-center">J S</h4>
         </div>
         <div class="col-md-2 open-boxes animated bounceInDown">
-         <img class="center-block logo-padding" src="/resume/img/bootstrap2.png" width="105px">
+            <img class="center-block logo-padding" src="/resume/img/bootstrap2.png" width="105px">
             <h4 class="text-center">B O O T S T R A P</h4>
         </div>
         <div class="col-md-2 open-box animated bounceInDown">
-             <img class="center-block logo-padding" src="/resume/img/angular.png" width="105px">
+            <img class="center-block logo-padding" src="/resume/img/angular.png" width="105px">
             <h4 class="text-center">A N G U L A R</h4>
         </div>
-        
+
     </div>
 
 
@@ -179,24 +196,24 @@
     <div class="row animated5 bounceInDown">
         <div class="col-md-2 open-box animated bounceInDown" ng-show="openPrograms">
             <h3 class="text-center" style="margin: 0; padding-top: 20px">VIETNAMESE</h3>
-        <hr>
-        <h4 class="text-center">Speaking: Fluent</h4>
+            <hr>
+            <h4 class="text-center">Speaking: Fluent</h4>
         </div>
         <div class="col-md-6 square-box-light">
-        <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <i class="fa fa-quote-left" aria-hidden="true"></i>
             <h3>When you want to succeed as bad as you want to breathe, then you'll be successful.</h3>
-        <i class="fa fa-quote-right pull-right" aria-hidden="true" style="margin-top: -20px;"></i>
+            <i class="fa fa-quote-right pull-right" aria-hidden="true" style="margin-top: -20px;"></i>
         </div>
         <div class="col-md-4 square-box-red" ng-click="openInterests = !openInterests">
-             <span class="center-block text-center">
+            <span class="center-block text-center">
              <i class="fa fa-camera-retro fa-5x" aria-hidden="true"></i>
              </span>
-             <hr>
+            <hr>
             <h3 class="text-center">INTERESTS</h3>
         </div>
     </div>
-    
-    
+
+
     <div class="row img-text" ng-show="openInterests">
         <div class="col-md-3 open-box img-photography animated bounceInDown">
             <h3 class="text-center">P H O T O G R A P H Y</h3>
@@ -225,15 +242,15 @@
             <img class="center-block logo-padding" src="/resume/img/layout.png" width="350px" style="padding-top: 30px">
         </div>
         <div class="col-md-4 square-boxes img-code">
-            <h1 class="text-center">I &nbsp;&nbsp; 
-            <i class="fa fa-heart" aria-hidden="true"></i> &nbsp;&nbsp;
-            <i class="fa fa-code" aria-hidden="true"></i>
+            <h1 class="text-center">I &nbsp;&nbsp;
+                <i class="fa fa-heart" aria-hidden="true"></i> &nbsp;&nbsp;
+                <i class="fa fa-code" aria-hidden="true"></i>
             </h1>
         </div>
     </div>
 
-    
-     <div class="row" ng-show="openSkills">
+
+    <div class="row" ng-show="openSkills">
         <div class="col-md-2 col-md-offset-2 open-boxes">
             <img class="center-block logo-padding animated bounceInDown" src="/resume/img/photoshop.png" width="110px">
             <h4 class="text-center animated bounceInDown">Photoshop</h4>
@@ -253,37 +270,37 @@
     </div>
 
     <a name="portfolio"></a>
-     <div class="row">
+    <div class="row">
         <div class="col-md-12 square-box-black">
-           <h1 class="text-center portfolio">M Y &nbsp;&nbsp;&nbsp; P O R T F O L I O</h1>
+            <h1 class="text-center portfolio">M Y &nbsp;&nbsp;&nbsp; P O R T F O L I O</h1>
         </div>
     </div>
 
     <div class="row portfolio-margin">
-         <div class="col-md-4">
+        <div class="col-md-4">
             <div class="thumbnail thumbnail-box">
-                 <img src="/resume/img/ebright.png" alt="Ebright">
+                <img src="/resume/img/ebright.png" alt="Ebright">
                 <h2 class="text-center">Bootstrap Frameworks</h2>
                 <a href="http://jasonlietnguyen.github.io/ebright/" target="_blank">
-                <h2 class="text-center go-button">View Demo</h2>
+                    <h2 class="text-center go-button">View Demo</h2>
                 </a>
             </div>
         </div>
         <div class="col-md-4">
             <div class="thumbnail thumbnail-box">
-                 <img src="/resume/img/todo.png" alt="ToDo List">
+                <img src="/resume/img/todo.png" alt="ToDo List">
                 <h2 class="text-center">Task List</h2>
                 <a href="http://jasonlietnguyen.github.io/todo/" target="_blank">
-                <h2 class="text-center go-button">View Demo</h2>
+                    <h2 class="text-center go-button">View Demo</h2>
                 </a>
             </div>
         </div>
-         <div class="col-md-4">
+        <div class="col-md-4">
             <div class="thumbnail thumbnail-box">
                 <img src="/resume/img/foundation.png" alt="Foundation">
                 <h2 class="text-center">Foundation Frameworks</h2>
                 <a href="http://jasonlietnguyen.github.io/foundation/" target="_target">
-                <h2 class="text-center go-button">View Demo</h2>
+                    <h2 class="text-center go-button">View Demo</h2>
                 </a>
             </div>
         </div>
@@ -295,25 +312,25 @@
                 <img src="/resume/img/converter.png" alt="Converter Calculator">
                 <h2 class="text-center">Converter</h2>
                 <a href="http://jasonlietnguyen.github.io/ng-calulator/#/page1" target="_target">
-                <h2 class="text-center go-button">View Demo</h2>
+                    <h2 class="text-center go-button">View Demo</h2>
                 </a>
             </div>
         </div>
-       <div class="col-md-4">
+        <div class="col-md-4">
             <div class="thumbnail thumbnail-box">
-                 <img src="/resume/img/inspire.png" alt="Inspire">
+                <img src="/resume/img/inspire.png" alt="Inspire">
                 <h2 class="text-center">Inspire</h2>
                 <a href="http://jasonlietnguyen.github.io/inspire/" target="_blank">
-                <h2 class="text-center go-button">View Demo</h2>
+                    <h2 class="text-center go-button">View Demo</h2>
                 </a>
             </div>
         </div>
-         <div class="col-md-4">
+        <div class="col-md-4">
             <div class="thumbnail thumbnail-box">
-                 <img src="/resume/img/music-is-life.png" alt="Music Is Life">
+                <img src="/resume/img/music-is-life.png" alt="Music Is Life">
                 <h2 class="text-center">Music Is Life</h2>
                 <a href="http://jasonlietnguyen.github.io/jasonmusicnotjake/" target="_blank">
-                <h2 class="text-center go-button">View Demo</h2>
+                    <h2 class="text-center go-button">View Demo</h2>
                 </a>
             </div>
         </div>
@@ -325,7 +342,7 @@
                 <img src="/resume/img/paper-resume.png" alt="Paper Resume">
                 <h2 class="text-center">Paper Resume</h2>
                 <a href="/resume/app/components/resume/paper-resume.html" target="_target">
-                <h2 class="text-center go-button">View Demo</h2>
+                    <h2 class="text-center go-button">View Demo</h2>
                 </a>
             </div>
         </div>
