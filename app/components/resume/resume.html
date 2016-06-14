@@ -1,41 +1,28 @@
 <!-- NavBar -->
-<div class="row custom-navbar">
-    <div class="col-md-2 text-center" ng-click="openEducation = !openEducation">
-        <a href="#education">
-            <p>EDUCATION</p>
-        </a>
-    </div>
-    <div class="col-md-2 text-center" ng-click="openSkills = !openSkills">
-        <a href="#skills">
-            <p>SKILLS</p>
-        </a>
-    </div>
-    <div class="col-md-2 text-center" ng-click="openInterests = !openInterests">
-        <a href="#interests">
-            <p>INTERESTS</p>
-        </a>
-    </div>
-    <span ng-click="openPrograms = !openPrograms">
-    <div class="col-md-2 text-center">
-        <a href="#programs"><p>PROGRAMS</p></a>
-    </div>
-    <div class="col-md-2 text-center">
-        <a href="#programs" ng-click="openProgram = !openPrograms"><p>LANGUAGES</p></a>
-    </div>
-    </span>
-    <div class="col-md-2 text-center">
-        <a href="#contact" ng-click="openContact = !openContact">
-            <p>CONTACT</p>
-        </a>
-    </div>
+<div class="row text-center" id="custom-navbar">
+    <div class="navbar-margin-top"></div>
+    <a href="#education" ng-click="openEducation = !openEducation">
+        <p>EDUCATION</p>
+    </a>
+    <a href="#skills" ng-click="openSkills = !openSkills">
+        <p>SKILLS</p>
+    </a>
+    <a href="#interests" ng-click="openInterests = !openInterests">
+        <p>INTERESTS</p>
+    </a>
+
+    <a href="#programs" ng-click="openPrograms = !openPrograms">
+        <p>PROGRAMS/LANGUAGES</p>
+    </a>
+    <a href="#contact" ng-click="openContact = !openContact">
+        <p>CONTACT</p>
+    </a>
+    <a href="#portfolio">
+        <p>MY PORTFOLIO</p>
+    </a>
+    <div class="navbar-margin-bottom"></div>
 </div>
-<div class="row">
-    <div class="col-md-2 col-md-offset-5 text-center sub-navbar">
-        <a href="#portfolio">
-            <p id="my-porfolio">MY PORTFOLIO</p>
-        </a>
-    </div>
-</div>
+
 <!-- Body -->
 <div class="container">
 

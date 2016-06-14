@@ -1,31 +1,18 @@
 /*Navbar*/
-.custom-navbar {
-    background-color: #333;
-    opacity: .8;
-    padding: 20px 0;
+.navbar-margin-top {
+    margin-top: 20px;
 }
-.custom-navbar p {
-    font-size: 2em;
+.navbar-margin-bottom {
+    margin-bottom: 40px;
+}
+#custom-navbar p {
+    font-size: 1.5em;
     color: white;
     display: inline;
+    padding-left: 20px;
+    opacity: .9;
 }
-.sub-navbar {
-    background-color: #333;
-    opacity: .8;
-    padding: 10px 0;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    margin-bottom: 35px;
-}
-.sub-navbar a {
-    text-decoration: none;
-}
-#my-porfolio {
-    font-size: 2em;
-    color: white;
-    margin-top: 0;
-}
-.custom-navbar a {
+#custom-navbar a {
     text-decoration: none;
 }
 
@@ -66,6 +53,9 @@ a {
     background-color: #d9534f;
     height: 180px;
     opacity: .9;
+    box-shadow: 0 0 12px #222;
+    z-index: 3;
+    position: relative;
 }
 .square-box-red:hover {
     background-color: #d62f2c;
