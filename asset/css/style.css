@@ -149,6 +149,10 @@ a {
     margin: 0 40px;
     color: black;
 }
+.img-padding{
+    background-color: #222;
+    opacity: .9;
+}
 #jason {
     padding-top: 30px; 
     background-position: center;
