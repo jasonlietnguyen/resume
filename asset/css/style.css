@@ -144,10 +144,10 @@ a {
     font-size: 4em;
 }
 .img-creative h2{
-    border: 3px solid black;
+    border: 3px solid #111;
     padding: 10px 0;
     margin: 0 40px;
-    color: black;
+    color: #111;
 }
 .img-padding{
     background-color: #222;
