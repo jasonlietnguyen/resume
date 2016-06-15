@@ -93,6 +93,12 @@ a {
 .open-click:hover {
     background-color: #d62f2c;
 }
+.word-spacing-jason{
+    letter-spacing: 10px;
+}
+.word-spacing-design{
+    letter-spacing: 5px;
+}
 .profile-img {
     background-image: url(/resume/img/profile-photo.jpg);
     background-size: cover;
