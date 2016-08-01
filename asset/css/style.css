@@ -222,7 +222,7 @@ a {
 }
 
 /*Glow*/
-@-webkit-keyframes glow {
+/*@-webkit-keyframes glow {
 from {
     box-shadow: 0 0 10px #4aad4a;
     text-shadow: 0 0 10px #4aad4a;
@@ -231,4 +231,4 @@ to {
     box-shadow: 0 0 5px #4aad4a;
     text-shadow: 0 0 5px #4aad4a;
 }
-}
+}*/
