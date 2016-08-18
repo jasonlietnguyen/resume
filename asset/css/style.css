@@ -23,7 +23,8 @@
 
 /*Body*/
 body {
-    background-image: url(/resume/img/background.jpg);
+    background-image: url(https://static.pexels.com/photos/24954/pexels-photo-24954.jpg);
+    /*background-image: url(/resume/img/background.jpg);*/
     background-attachment: fixed;
     background-size: cover;
     background-position: bottom;
@@ -193,7 +194,6 @@ a {
 .go-button {
     border: 1px solid #4aad4a;
     color: #4aad4a;
-    border-radius: 5px;
     margin: 0 80px 5px 80px;
     padding: 5px 0;
     -webkit-animation: glow 1.5s ease-in-out infinite alternate;
