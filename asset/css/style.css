@@ -23,8 +23,8 @@
 
 /*Body*/
 body {
-    background-image: url(https://hd.unsplash.com/photo-1432117068802-b224427256a5);
-    /*background-image: url(/resume/img/background.jpg);*/
+    /*background-image: url(https://hd.unsplash.com/photo-1432117068802-b224427256a5);*/
+    background-image: url(/resume/img/background.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: top;
