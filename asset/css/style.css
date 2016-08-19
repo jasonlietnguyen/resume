@@ -27,7 +27,7 @@ body {
     /*background-image: url(/resume/img/background.jpg);*/
     background-attachment: fixed;
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
     color: white;
