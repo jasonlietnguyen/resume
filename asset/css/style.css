@@ -149,11 +149,11 @@ a {
     font-size: 4em;
 }
 .img-creative h2{
-    border: 2px solid #111;
+    border: 2px solid white;
     font-weight: 600;
     padding: 10px 0;
     margin: 0 40px;
-    color: #111;
+    color: white;
 }
 .img-padding{
     background-color: #222;
