@@ -23,11 +23,10 @@
 
 /*Body*/
 body {
-    background-image: url(https://static.pexels.com/photos/24954/pexels-photo-24954.jpg);
-    /*background-image: url(/resume/img/background.jpg);*/
+    background-image: url(/resume/img/background.jpg);
     background-attachment: fixed;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
     color: white;
@@ -50,21 +49,20 @@ a {
 }
 
 .square-box-light {
-    background-color: #469AE0;
+    background-color: #00b7cc;
     height: 180px;
     opacity: .9;
 }
 .square-box-red {
-    background-color: #d9534f;
+    background-color: #fc5555;
+    transition: .2s;
     height: 180px;
     opacity: .9;
-    box-shadow: 0 0 12px #222;
-    z-index: 3;
-    position: relative;
 }
 .square-box-red:hover {
     background-color: #d62f2c;
     border: 3px solid white;
+    opacity: .8;
 }
 .square-box-black {
     background-color: #333;
@@ -73,7 +71,7 @@ a {
     color: white;
 }
 .open-boxes {
-    background-color: #d9534f;
+    background-color: #fc5555;
     height: 180px;
     opacity: .9;
     border-right: 1px solid white;
@@ -83,7 +81,7 @@ a {
     text-decoration: none;
 }
 .open-box {
-    background-color: #d9534f;
+    background-color: #fc5555;
     height: 180px;
     opacity: .9;
     border-bottom: 1px solid white;
@@ -176,7 +174,7 @@ a {
     padding: 10px 0;
 }
 .portfolio {
-    font-size: 5em;
+    font-size: 4em;
     padding: 10px 0;
     margin: 40px;
 }
@@ -186,6 +184,7 @@ a {
 .thumbnail-box {
     background-color: #333;
     border: none;
+    border-radius: 0;
     opacity: .9
 }
 .thumbnail-box:hover {
