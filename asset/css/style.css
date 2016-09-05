@@ -55,7 +55,6 @@ a {
 }
 .square-box-red {
     background-color: #fc5555;
-    transition: .2s;
     height: 180px;
     opacity: .9;
 }
@@ -185,7 +184,7 @@ a {
     background-color: #333;
     border: none;
     border-radius: 0;
-    opacity: .9
+    opacity: .95;
 }
 .thumbnail-box:hover {
     background-color: #111;
