@@ -191,7 +191,7 @@ a {
     color: #4aad4a;
     margin: 0 80px 5px 80px;
     padding: 5px 0;
-    transition: 1s ease;
+    transition: .3s ease;
 }
 .go-button:hover {
     border: 1px solid #4aad4a;
