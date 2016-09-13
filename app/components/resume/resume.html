@@ -84,14 +84,14 @@
     </div>
 
 
-    <a name="education"></a>
+    <a name="experiences"></a>
     <div class="row animated3 bounceInDown">
-        <div class="col-md-4 square-box-red" ng-click="openEducation = !openEducation">
+        <div class="col-md-4 square-box-red" ng-click="openExperiences = !openExperiences">
             <span class="center-block text-center">
-            <i class="fa fa-graduation-cap fa-5x animated infinite pulse" aria-hidden="true"></i>
+            <i class="fa fa-laptop fa-5x animated infinite pulse" aria-hidden="true"></i>
             </span>
             <hr>
-            <h3 class="text-center">EDUCATION</h3>
+            <h3 class="text-center">EXPERIENCES</h3>
         </div>
         <div class="col-md-2 square-box-light">
             <img class="center-block logo-padding" src="/resume/img/bootstrap.png" width="150px">
@@ -101,21 +101,32 @@
         </div>
     </div>
 
-    <div class="row" ng-show="openEducation">
-        <div class="col-md-2 open-boxes">
-            <img class="center-block logo-padding animated bounceInRight" src="/resume/img/vhs.png" width="80px">
-            <h4 class="text-center animated bounceInRight">Valivue High School</h4>
-            <h5 class="text-center animated bounceInRight">-Caldwell, ID</h5>
+    <div class="row" ng-show="openExperiences">
+        <div class="col-md-4 open-boxes">
+            <h3 class="text-center animated bounceInDown" style="margin: 0; padding-top: 20px">CodeWorks Boise</h3>
+            <hr class="animated bounceInDown"><br>
+            <ul>
+                <li class="animated bounceInDown">Provided extra assistance to students with css and design questions and problems</li>
+                <li class="animated bounceInDown">Redesign a new layout for the CodeWorks Boise website using html, css and photoshop</li>
+            </ul>
         </div>
-        <div class="col-md-2 open-boxes">
-            <img class="center-block logo-padding animated bounceInRight" src="/resume/img/bcw.png" width="80px">
-            <h4 class="text-center animated bounceInRight">Boise Code Works</h4>
-            <h5 class="text-center animated bounceInRight">-Boise, ID</h5>
+        <div class="col-md-4 open-boxes">
+            <h3 class="text-center animated bounceInDown" style="margin: 0; padding-top: 20px">YMCA</h3>
+            <hr class="animated bounceInDown"><br>
+            <ul>
+                <li class="animated bounceInDown">House Keeping</li>
+                <li class="animated bounceInDown">Manage cleaning schedule from the todo list for the day</li>
+                <li class="animated bounceInDown">Mop, sweep, clean, vacuum floors</li>
+            </ul>
         </div>
-        <div class="col-md-2 open-box">
-            <img class="center-block logo-padding animated bounceInRight" src="/resume/img/cwi.png" width="100px">
-            <h4 class="text-center animated bounceInRight">CWI</h4>
-            <h5 class="text-center animated bounceInRight">-Nampa, ID</h5>
+        <div class="col-md-4 open-box">
+            <h3 class="text-center animated bounceInDown" style="margin: 0; padding-top: 20px">WOODGRAIN MILLWORK</h3>
+            <hr class="animated bounceInDown"><br>
+            <ul>
+                <li class="animated bounceInDown">Machine operator</li>
+                <li class="animated bounceInDown">Inspection of wood panels with great attention for details</li>
+                <li class="animated bounceInDown">Manage and inspect inventory</li>
+            </ul>
         </div>
     </div>
 
@@ -170,7 +181,7 @@
     </div>
 
 
-    <a name="interests"></a>
+    <a name="education"></a>
     <div class="row animated5 bounceInDown">
         <div class="col-md-2 open-box animated bounceInDown" ng-show="openSkills">
             <img class="center-block logo-padding" src="/resume/img/lightroom.png" width="110px">
@@ -181,12 +192,51 @@
             <h3>When you want to succeed as bad as you want to breathe, then you'll be successful.</h3>
             <i class="fa fa-quote-right pull-right" aria-hidden="true" style="margin-top: -20px;"></i>
         </div>
+        <div class="col-md-4 square-box-red" ng-click="openEducation = !openEducation">
+            <span class="center-block text-center">
+            <i class="fa fa-graduation-cap fa-5x animated infinite pulse" aria-hidden="true"></i>
+            </span>
+            <hr>
+            <h3 class="text-center">EDUCATION</h3>
+        </div>
+    </div>
+
+    <div class="row" ng-show="openEducation">
+        <div class="col-md-2 col-md-offset-6 open-boxes">
+            <img class="center-block logo-padding animated bounceInLeft" src="/resume/img/vhs.png" width="80px">
+            <h4 class="text-center animated bounceInLeft">Valivue High School</h4>
+            <h5 class="text-center animated bounceInLeft">-Caldwell, ID</h5>
+        </div>
+        <div class="col-md-2 open-boxes">
+            <img class="center-block logo-padding animated bounceInLeft" src="/resume/img/bcw.png" width="80px">
+            <h4 class="text-center animated bounceInLeft">Boise Code Works</h4>
+            <h5 class="text-center animated bounceInLeft">-Boise, ID</h5>
+        </div>
+        <div class="col-md-2 open-box">
+            <img class="center-block logo-padding animated bounceInLeft" src="/resume/img/cwi.png" width="100px">
+            <h4 class="text-center animated bounceInLeft">CWI</h4>
+            <h5 class="text-center animated bounceInLeft">-Nampa, ID</h5>
+        </div>
+    </div>
+
+    <a name="interests"></a>
+    <div class="row animated6 bounceInDown">
+        
         <div class="col-md-4 square-box-red" ng-click="openInterests = !openInterests">
             <span class="center-block text-center">
              <i class="fa fa-camera-retro fa-5x animated infinite pulse" aria-hidden="true"></i>
              </span>
             <hr>
             <h3 class="text-center">INTERESTS</h3>
+        </div>
+        <div class="col-md-4 square-box-light">
+            <img class="center-block logo-padding" src="/resume/img/layout.png" width="350px" style="padding-top: 30px">
+        </div>
+        <div class="col-md-4 square-box img-code">
+            <h1 class="text-center">I &nbsp;&nbsp;
+                <i class="fa fa-heart" aria-hidden="true"></i> &nbsp;&nbsp;
+                <i class="fa fa-code" aria-hidden="true"></i>
+            </h1>
         </div>
     </div>
 
@@ -203,55 +253,6 @@
         </div>
         <div class="col-md-3 open-box img-outdoors animated bounceInUp">
             <h3 class="text-center">O U T D O O R S</h3>
-        </div>
-    </div>
-
-    <a name="experiences"></a>
-    <div class="row animated6 bounceInDown">
-        <div class="col-md-4 square-box-red" ng-click="openExperiences = !openExperiences">
-            <span class="center-block text-center">
-            <i class="fa fa-laptop fa-5x animated infinite pulse" aria-hidden="true"></i>
-            </span>
-            <hr>
-            <h3 class="text-center">EXPERIENCES</h3>
-        </div>
-        <div class="col-md-4 square-box-light">
-            <img class="center-block logo-padding" src="/resume/img/layout.png" width="350px" style="padding-top: 30px">
-        </div>
-        <div class="col-md-4 square-box img-code">
-            <h1 class="text-center">I &nbsp;&nbsp;
-                <i class="fa fa-heart" aria-hidden="true"></i> &nbsp;&nbsp;
-                <i class="fa fa-code" aria-hidden="true"></i>
-            </h1>
-        </div>
-    </div>
-
-    <div class="row" ng-show="openExperiences">
-        <div class="col-md-4 open-boxes">
-            <h3 class="text-center animated bounceInDown" style="margin: 0; padding-top: 20px">CodeWorks Boise</h3>
-            <hr class="animated bounceInDown"><br>
-            <ul>
-                <li class="animated bounceInDown">Provided extra assistance to students with css and design questions and problems</li>
-                <li class="animated bounceInDown">Redesign a new layout for the CodeWorks Boise website using html, css and photoshop</li>
-            </ul>
-        </div>
-        <div class="col-md-4 open-boxes">
-            <h3 class="text-center animated bounceInDown" style="margin: 0; padding-top: 20px">YMCA</h3>
-            <hr class="animated bounceInDown"><br>
-            <ul>
-                <li class="animated bounceInDown">House Keeping</li>
-                <li class="animated bounceInDown">Manage cleaning schedule from the todo list for the day</li>
-                <li class="animated bounceInDown">Mop, sweep, clean, vacuum floors</li>
-            </ul>
-        </div>
-        <div class="col-md-4 open-box">
-            <h3 class="text-center animated bounceInDown" style="margin: 0; padding-top: 20px">WOODGRAIN MILLWORK</h3>
-            <hr class="animated bounceInDown"><br>
-            <ul>
-                <li class="animated bounceInDown">Machine operator</li>
-                <li class="animated bounceInDown">Inspection of wood panels with great attention for details</li>
-                <li class="animated bounceInDown">Manage and inspect inventory</li>
-            </ul>
         </div>
     </div>
 
